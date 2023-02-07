@@ -1,0 +1,61 @@
+body{
+  background-color: #404341;
+  color: #fde231;
+}
+
+main,
+header {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+.simulacao, form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.formulario{
+  width: 100%;
+}
+
+.resultado{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 50%;
+}
+
+.infos-resultado{
+  margin: .5rem 0;
+}
+
+input{
+  text-align: center;
+}
+
+button{
+  margin: .5rem;
+  padding: .2rem .5rem;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+button:hover{
+  background-color: #434040;
+  color: #fde231;
+}
+
